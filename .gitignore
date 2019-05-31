@@ -105,3 +105,4 @@ venv.bak/
 
 #rawdata
 /rawdata
+.DS_Store
