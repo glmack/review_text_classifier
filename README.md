@@ -7,7 +7,7 @@ Predictive insights of customer-related metrics can help retail establishments m
 Data understanding  
 Customer reviews for this project were sourced from: 1) an aggregated subset of seven million Yelp customer reviews made available by Yelp as a set of downloadable JSON files, as well as 2) three hundred test customer reviews queried from the Places API of Google. For project purposes, the data was stored in, and queried from, a MongoDB database.
 
-Data preparation 
+Data preparation  
 Raw strings of customer reviews were extracted, processed and represented to models through a bag-of-words approach under a variety of alternate specifications using the Scikit-learn library. Specifications of parameters included, e.g.: 
     1) alternative tokenization strategies using: 
         a) only unigrams, b) only bigrams, and c) combined unigram and bigrams, 
